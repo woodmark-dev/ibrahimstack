@@ -1,6 +1,6 @@
 const http = require("http");
 const server = http.createServer((req, res) => {
-	res.write("On the way to master fullstack");
+	res.write("Welcome");
 	res.end();
 }).listen(3000);
 
